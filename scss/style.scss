@@ -1,0 +1,359 @@
+@import "fonts";
+@import "global";
+@import "vars";
+
+.header {
+    background: url('../images/no__vikings/header-bg.jpg') center 50px no-repeat;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.header::after {
+    content: '';
+    position: absolute;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, #0E0E0E 0%, rgba(17, 17, 17, 0.850295) 16.53%, rgba(32, 31, 33, 0) 100%);
+    transform: rotate(180deg);
+}
+.menu__btn {
+    display: none;
+}
+.header__logo {
+    img {
+        width: 50%;
+    }
+}
+.menu {
+    padding: 50px 0 58px;
+    background: linear-gradient(180deg, #111213 0%, #111213 43.62%, rgba(32, 31, 33, 0) 86.33%);
+    img {
+        position: absolute;
+        width: 25%;
+        left: 30px;
+        top: 0px;
+    }
+}
+.menu__list {
+    display: flex;
+    justify-content: center;
+}
+.menu-container {
+    max-width: 1385px;
+    margin: 0 auto;
+    position: relative;
+}
+.menu__list-item {
+    padding: 0 13px;
+    a {
+        font-size: 36px;
+        line-height: 42px;
+        &:hover {
+            color:#d5bc0e;
+            text-decoration: underline;
+        }
+    }
+}
+.menu__list-item {
+        .a1 {
+            animation-delay: 0s;
+        }
+        .a2 {
+            animation-delay: .4s;
+        }
+        .a3 {
+            animation-delay: .8s;
+        }
+        .a4 {
+            animation-delay: 1.2s;
+        }
+        .a5 {
+            animation-delay: 1.6s;
+        }
+}
+.logo {
+    margin-top: 17vh;
+}
+.about__inner {
+    display: flex;
+}
+.about__text,
+.about-info {
+    animation-delay: .4s;
+}
+.about-info {
+    width: 375px;
+    margin-right: 50px;
+    flex: none;
+    span {
+        display: block;
+    }
+    li {
+        margin-bottom: 25px;
+        color: #e5e5e5;
+    }
+}
+.about__text {
+    p {
+        margin-bottom: 25px;
+    }
+}
+.video {
+    background: url('../images/no__vikings/narik-new.jpg') center center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    text-align: right;
+    span {
+        display: none;
+    }
+}
+.video__text {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 84px;
+    color: #85CCDC;
+    padding-top: 45vh;
+    padding-bottom: 35px;
+    span {
+        display: block;
+        padding-right: 285px;
+    }
+}
+.video__btn {
+    padding-left: 112px;
+    position: relative;
+    margin-right: 230px;
+    font-size: 20px;
+}
+.video__btn::before {
+    content: '';
+    background: url('../images/no__vikings/youtube-btn.svg');
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -40px;
+    left: 0;
+}
+.seasons__inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+    grid-gap: 100px 75px;
+    counter-reset: number;
+    padding-top: 50px;
+    padding-left: 0px;
+    opacity: 0.8;
+    span {
+        display: none;
+    }
+}
+.seasons__item {
+    &:nth-child(1) {
+        animation-delay: 0s;
+    }
+    &:nth-child(2) {
+        animation-delay: .3s;
+    }
+    &:nth-child(3) {
+        animation-delay: .6s;
+    }
+    &:nth-child(4) {
+        animation-delay: .6s;
+    }
+    &:nth-child(5) {
+        animation-delay: .6s;
+    }
+    &:nth-child(6) {
+        animation-delay: .6s;
+    }
+    &:nth-child(7) {
+        animation-delay: .6s;
+    }
+    &:nth-child(8) {
+        animation-delay: .6s;
+    }
+    &:nth-child(9) {
+        animation-delay: .6s;
+    }
+    &:nth-child(10) {
+        animation-delay: .6s;
+    }
+    &:nth-child(11) {
+        animation-delay: .6s;
+    }
+    &:nth-child(12) {
+        animation-delay: .6s;
+    }
+    &:nth-child(13) {
+        animation-delay: .6s;
+    }
+    &:nth-child(14) {
+        animation-delay: .6s;
+    }
+    &:nth-child(15) {
+        animation-delay: .6s;
+    }
+}
+.seasons__item {
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &::before {
+        position: absolute;
+        content: '0' counter(number);
+        counter-increment: number;
+        font-weight: bold;
+        font-size: 96px;
+        line-height: 112px;
+        color: #d5bc0e;
+        left: 0;
+        top: -72px;
+        z-index: -1;
+    }
+    &:nth-child(n+10)::before {
+        content: counter(number);
+    }
+    &:hover {
+        .seasons__link {
+            opacity: 1;
+        }
+    }
+    &:hover::after {
+       content: '';
+       position: absolute;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       background: rgba(14, 14, 14, 0.8);
+    }
+}
+.seasons__link {
+    font-size: 36px;
+    line-height: 42px;
+    padding: 12px 78px 11px;
+    background-color: #0e0e0e;
+    opacity: 0;
+    transition: all .3s;
+    z-index: 2;
+}
+.heroes__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.heroes__slider-img {
+    max-width: 775px;
+    animation-delay: .2s;
+}
+.heroes__slider-text {
+    max-width: 350px;
+    animation-delay: .2s;
+}
+.heroes-name {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 84px;
+    color: #85CCDC;
+    margin-bottom: 44px;
+}
+.slick-btn {
+    position: absolute;
+    top: calc(50% - 25px);
+    border: none;
+    background-color: transparent;
+    z-index: 5;
+    cursor: pointer;
+    outline: none;
+}
+.slick-prev {
+    left: 38px;
+}
+.slick-next {
+    right: 38px;
+}
+.heroes__text {
+    p {
+        margin-bottom: 15px;
+    }
+}
+.copy {
+    padding: 14px 0 15px;
+    text-align: center;
+}
+//start season-1
+
+.menu__list-link--active {
+    color: #d5bc0e;
+}
+
+.page-header,
+.header-two,
+.header-three,
+.header-fore,
+.header-five {
+    background-size: cover;
+    position: relative;
+    height: 126vh;
+}
+
+
+.page-header {
+    background: url('../images/no__vikings/season-bg1.jpg') center center no-repeat;
+}
+.header-two {
+    background: url('../images/no__vikings/bg-season__2.jpg') -270px -90px no-repeat;
+}
+.header-three {
+    background: url('../images/no__vikings/bg-season__3.jpg') center 25px no-repeat;
+}
+.header-fore {
+    background: url('../images/no__vikings/bg-season__4.jpg') center 35px no-repeat;
+}
+.header-five {
+    background: url('../images/no__vikings/bg-season__5.jpg') center center no-repeat;
+}
+.page-logo {
+    width: 60%;
+    position: absolute;
+    left: 0;
+}
+.season-info {
+    position: absolute;
+    max-width: 1385px;
+    display: flex;
+    padding: 44px 47px 15px 45px;
+    background-color: #0E0E0E;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.season-info__text {
+    p {
+        margin-bottom: 15px;
+    }
+}
+.season-info__num {
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 56px;
+    text-align: center;
+    margin-right: 51px;
+    span {
+        display: block;
+        font-size: 36px;
+        line-height: 42px;
+    }
+}
+//end season-1
+
+@import "media";

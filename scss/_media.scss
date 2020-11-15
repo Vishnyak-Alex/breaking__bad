@@ -1,0 +1,248 @@
+@media (max-width: 1420px) {
+    .page-logo {
+        left: 10px;
+        top: -6px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .page-header,
+    .header-two,
+    .header-three,
+    .header-fore,
+    .header-five {
+        height: 120vh;
+    }
+    .logo-img {
+        width: 50%;
+    }
+    .menu__list {
+        a {
+           font-size: 24px; 
+           line-height: 32px;
+        }
+    }
+    .about-info {
+        width: 250px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .heroes__inner {
+        display: block;
+    }
+    .heroes__slider-text {
+        padding-top: 50px;
+        max-width: 100%;
+    }
+    .heroes__slider-img {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 1088px) {
+    .seasons__item {
+        height: 340px;
+    }
+    .seasons__inner {
+        grid-gap: 80px 35px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-three {
+        background: url('../images/no__vikings/bg-season__3.jpg') -400px center no-repeat;
+    }
+    .page-logo {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-header {
+        background: url('../images/no__vikings/season-bg1.jpg') -380px center no-repeat;
+    }
+    .header {
+        background: url('../images/no__vikings/header-bg.jpg') -180px 0px no-repeat;
+    }
+    .heroes-name {
+        font-size: 46px;
+        margin-bottom: 25px;
+        line-height: 56px;
+    }
+    .title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .heroes__text p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .about__inner {
+        display: block;
+    }
+    .section-page {
+        padding: 50px 0;
+    }
+    .title {
+        margin-bottom: 50px;
+    }
+    body {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .video__text {
+        font-size: 48px;
+        line-height: 56px;
+        span {
+            padding-right: 200px;
+        }
+    }
+    .video__btn {
+        margin-right: 0px;
+        padding-left: 62px;
+        &::before {
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            top: -16px;
+        }
+    }
+    .season-info {
+        display: block;
+        padding: 30px 10px 0px 10px;
+        span {
+            font-size: 25px;
+            line-height: 32px;
+        }
+    }
+    .season-info__num {
+        text-align: left;
+        font-size: 50px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 640px) {
+    .page-header {
+        background: url('../images/no__vikings/season-bg1.jpg') -595px -65px no-repeat;
+    }
+    .header-three {
+        background: url('../images/no__vikings/bg-season__3.jpg') -500px 25px no-repeat;
+    }
+    .header-fore {
+        background: url('../images/no__vikings/bg-season__4.jpg') center 25px no-repeat;
+    }
+    .header-five {
+        background: url('../images/no__vikings/bg-season__5.jpg') center 0px no-repeat;
+    }
+    .page-logo {
+        display: block;
+        z-index: 10;
+        top: 22px;
+    }
+    .menu {
+        padding: 0;
+        text-align: center;
+        background: linear-gradient(180deg, #111213 0%, #111213 10%, rgba(32, 31, 33, 0) 86.33%);
+    }
+    .menu__list {
+        display: block;
+        transform: translateY(-130%);
+        transition: all .3s;
+        &.menu__list--active {
+            transform: translateY(0%);
+            padding: 100px 0 50px;
+            background-color: #0e0e0e;
+        }
+        a {
+           display: block;
+           padding: 10px 0; 
+        }
+    }
+    .menu {
+        img {
+            width: 50%;
+        }
+    }
+    .seasons__item {
+        height: 203px;
+    }
+    .menu__btn {
+        position: absolute;
+        display: block;
+        width: 50px;
+        height: 40px;
+        cursor: pointer;
+        right: 10px;
+        top: 20px;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        outline: none;
+    }
+    .menu__btn {
+        span {
+            background-color: #fff;
+            height: 5px;
+            width: 100%;
+        }
+    }
+    .menu__btn::after,
+    .menu__btn::before {
+        content: '';
+        width: 100%;
+        height: 5px;
+        background-color: #fff;
+        position: absolute; 
+    }
+    .menu__btn::before {
+        top: 0;
+        left: 0;
+    }
+    .menu__btn::after {
+        left: 0;
+        bottom: 0;
+    }
+    .page-header,
+    .header-two,
+    .header-three,
+    .header-fore,
+    .header-five {
+        height: 160vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .header-fore {
+        background: url('../images/no__vikings/bg-season__4.jpg') -900px 25px no-repeat;
+    }
+    .header-three {
+        background: url('../images/no__vikings/bg-season__3.jpg') -600px 25px no-repeat;
+    }
+}
+
+@media (max-width: 374px) {
+    .header-three {
+        background: url('../images/no__vikings/bg-season__3.jpg') -700px 25px no-repeat;
+    }
+    .header {
+        background: url('../images/no__vikings/header-bg.jpg') -310px 0px no-repeat;
+    }
+    .menu {
+        img {
+            width: 70%;
+            left: 15px;
+        }
+    }
+    .video__btn {
+        font-size: 18px;
+    }
+    .page-header {
+        height: 200vh;
+    }
+}

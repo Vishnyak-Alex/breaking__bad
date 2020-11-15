@@ -1,0 +1,634 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?lhbyfp");
+  src: url("fonts/icomoon.eot?lhbyfp#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?lhbyfp") format("truetype"), url("fonts/icomoon.woff?lhbyfp") format("woff"), url("fonts/icomoon.svg?lhbyfp#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak-as: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-youtube-play:before {
+  content: "\f16a"; }
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+body {
+  background-color: #0e0e0e;
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 21px; }
+
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none; }
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-weight: inherit;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto; }
+
+.section-page {
+  padding: 100px 0; }
+
+.title {
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400; }
+
+.header {
+  background: url("../images/no__vikings/header-bg.jpg") center 50px no-repeat;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  position: relative; }
+
+.header::after {
+  content: '';
+  position: absolute;
+  height: 70px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0E0E0E), color-stop(16.53%, rgba(17, 17, 17, 0.850295)), to(rgba(32, 31, 33, 0)));
+  background: -o-linear-gradient(top, #0E0E0E 0%, rgba(17, 17, 17, 0.850295) 16.53%, rgba(32, 31, 33, 0) 100%);
+  background: linear-gradient(180deg, #0E0E0E 0%, rgba(17, 17, 17, 0.850295) 16.53%, rgba(32, 31, 33, 0) 100%);
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.menu__btn {
+  display: none; }
+
+.header__logo img {
+  width: 50%; }
+
+.menu {
+  padding: 50px 0 58px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#111213), color-stop(43.62%, #111213), color-stop(86.33%, rgba(32, 31, 33, 0)));
+  background: -o-linear-gradient(top, #111213 0%, #111213 43.62%, rgba(32, 31, 33, 0) 86.33%);
+  background: linear-gradient(180deg, #111213 0%, #111213 43.62%, rgba(32, 31, 33, 0) 86.33%); }
+  .menu img {
+    position: absolute;
+    width: 25%;
+    left: 30px;
+    top: 0px; }
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.menu-container {
+  max-width: 1385px;
+  margin: 0 auto;
+  position: relative; }
+
+.menu__list-item {
+  padding: 0 13px; }
+  .menu__list-item a {
+    font-size: 36px;
+    line-height: 42px; }
+    .menu__list-item a:hover {
+      color: #d5bc0e;
+      text-decoration: underline; }
+
+.menu__list-item .a1 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+
+.menu__list-item .a2 {
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s; }
+
+.menu__list-item .a3 {
+  -webkit-animation-delay: .8s;
+          animation-delay: .8s; }
+
+.menu__list-item .a4 {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s; }
+
+.menu__list-item .a5 {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s; }
+
+.logo {
+  margin-top: 17vh; }
+
+.about__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.about__text,
+.about-info {
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s; }
+
+.about-info {
+  width: 375px;
+  margin-right: 50px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none; }
+  .about-info span {
+    display: block; }
+  .about-info li {
+    margin-bottom: 25px;
+    color: #e5e5e5; }
+
+.about__text p {
+  margin-bottom: 25px; }
+
+.video {
+  background: url("../images/no__vikings/narik-new.jpg") center center no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+  text-align: right; }
+  .video span {
+    display: none; }
+
+.video__text {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 84px;
+  color: #85CCDC;
+  padding-top: 45vh;
+  padding-bottom: 35px; }
+  .video__text span {
+    display: block;
+    padding-right: 285px; }
+
+.video__btn {
+  padding-left: 112px;
+  position: relative;
+  margin-right: 230px;
+  font-size: 20px; }
+
+.video__btn::before {
+  content: '';
+  background: url("../images/no__vikings/youtube-btn.svg");
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: -40px;
+  left: 0; }
+
+.seasons__inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+  grid-gap: 100px 75px;
+  counter-reset: number;
+  padding-top: 50px;
+  padding-left: 0px;
+  opacity: 0.8; }
+  .seasons__inner span {
+    display: none; }
+
+.seasons__item:nth-child(1) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+
+.seasons__item:nth-child(2) {
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s; }
+
+.seasons__item:nth-child(3) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s; }
+
+.seasons__item:nth-child(4) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s; }
+
+.seasons__item:nth-child(5) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s; }
+
+.seasons__item:nth-child(6) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s; }
+
+.seasons__item:nth-child(7) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s; }
+
+.seasons__item:nth-child(8) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s; }
+
+.seasons__item:nth-child(9) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s; }
+
+.seasons__item:nth-child(10) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s; }
+
+.seasons__item:nth-child(11) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s; }
+
+.seasons__item:nth-child(12) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s; }
+
+.seasons__item:nth-child(13) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s; }
+
+.seasons__item:nth-child(14) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s; }
+
+.seasons__item:nth-child(15) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s; }
+
+.seasons__item {
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 250px;
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .seasons__item::before {
+    position: absolute;
+    content: "0" counter(number);
+    counter-increment: number;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 112px;
+    color: #d5bc0e;
+    left: 0;
+    top: -72px;
+    z-index: -1; }
+  .seasons__item:nth-child(n+10)::before {
+    content: counter(number); }
+  .seasons__item:hover .seasons__link {
+    opacity: 1; }
+  .seasons__item:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(14, 14, 14, 0.8); }
+
+.seasons__link {
+  font-size: 36px;
+  line-height: 42px;
+  padding: 12px 78px 11px;
+  background-color: #0e0e0e;
+  opacity: 0;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  z-index: 2; }
+
+.heroes__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.heroes__slider-img {
+  max-width: 775px;
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s; }
+
+.heroes__slider-text {
+  max-width: 350px;
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s; }
+
+.heroes-name {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 84px;
+  color: #85CCDC;
+  margin-bottom: 44px; }
+
+.slick-btn {
+  position: absolute;
+  top: calc(50% - 25px);
+  border: none;
+  background-color: transparent;
+  z-index: 5;
+  cursor: pointer;
+  outline: none; }
+
+.slick-prev {
+  left: 38px; }
+
+.slick-next {
+  right: 38px; }
+
+.heroes__text p {
+  margin-bottom: 15px; }
+
+.copy {
+  padding: 14px 0 15px;
+  text-align: center; }
+
+.menu__list-link--active {
+  color: #d5bc0e; }
+
+.page-header,
+.header-two,
+.header-three,
+.header-fore,
+.header-five {
+  background-size: cover;
+  position: relative;
+  height: 126vh; }
+
+.page-header {
+  background: url("../images/no__vikings/season-bg1.jpg") center center no-repeat; }
+
+.header-two {
+  background: url("../images/no__vikings/bg-season__2.jpg") -270px -90px no-repeat; }
+
+.header-three {
+  background: url("../images/no__vikings/bg-season__3.jpg") center 25px no-repeat; }
+
+.header-fore {
+  background: url("../images/no__vikings/bg-season__4.jpg") center 35px no-repeat; }
+
+.header-five {
+  background: url("../images/no__vikings/bg-season__5.jpg") center center no-repeat; }
+
+.page-logo {
+  width: 60%;
+  position: absolute;
+  left: 0; }
+
+.season-info {
+  position: absolute;
+  max-width: 1385px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 44px 47px 15px 45px;
+  background-color: #0E0E0E;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+.season-info__text p {
+  margin-bottom: 15px; }
+
+.season-info__num {
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 56px;
+  text-align: center;
+  margin-right: 51px; }
+  .season-info__num span {
+    display: block;
+    font-size: 36px;
+    line-height: 42px; }
+
+@media (max-width: 1420px) {
+  .page-logo {
+    left: 10px;
+    top: -6px; } }
+
+@media (max-width: 1366px) {
+  .page-header,
+  .header-two,
+  .header-three,
+  .header-fore,
+  .header-five {
+    height: 120vh; }
+  .logo-img {
+    width: 50%; }
+  .menu__list a {
+    font-size: 24px;
+    line-height: 32px; }
+  .about-info {
+    width: 250px; } }
+
+@media (max-width: 1200px) {
+  .heroes__inner {
+    display: block; }
+  .heroes__slider-text {
+    padding-top: 50px;
+    max-width: 100%; }
+  .heroes__slider-img {
+    min-width: 100%; } }
+
+@media (max-width: 1088px) {
+  .seasons__item {
+    height: 340px; }
+  .seasons__inner {
+    grid-gap: 80px 35px; } }
+
+@media (max-width: 992px) {
+  .header-three {
+    background: url("../images/no__vikings/bg-season__3.jpg") -400px center no-repeat; }
+  .page-logo {
+    display: none; } }
+
+@media (max-width: 768px) {
+  .page-header {
+    background: url("../images/no__vikings/season-bg1.jpg") -380px center no-repeat; }
+  .header {
+    background: url("../images/no__vikings/header-bg.jpg") -180px 0px no-repeat; }
+  .heroes-name {
+    font-size: 46px;
+    margin-bottom: 25px;
+    line-height: 56px; }
+  .title {
+    font-size: 28px;
+    line-height: 36px; }
+  .heroes__text p {
+    font-size: 15px;
+    line-height: 18px; }
+  .about__inner {
+    display: block; }
+  .section-page {
+    padding: 50px 0; }
+  .title {
+    margin-bottom: 50px; }
+  body {
+    font-size: 16px;
+    line-height: 19px; }
+  .video__text {
+    font-size: 48px;
+    line-height: 56px; }
+    .video__text span {
+      padding-right: 200px; }
+  .video__btn {
+    margin-right: 0px;
+    padding-left: 62px; }
+    .video__btn::before {
+      background-size: cover;
+      width: 50px;
+      height: 50px;
+      top: -16px; }
+  .season-info {
+    display: block;
+    padding: 30px 10px 0px 10px; }
+    .season-info span {
+      font-size: 25px;
+      line-height: 32px; }
+  .season-info__num {
+    text-align: left;
+    font-size: 50px;
+    line-height: 26px;
+    margin-bottom: 15px; } }
+
+@media (max-width: 640px) {
+  .page-header {
+    background: url("../images/no__vikings/season-bg1.jpg") -595px -65px no-repeat; }
+  .header-three {
+    background: url("../images/no__vikings/bg-season__3.jpg") -500px 25px no-repeat; }
+  .header-fore {
+    background: url("../images/no__vikings/bg-season__4.jpg") center 25px no-repeat; }
+  .header-five {
+    background: url("../images/no__vikings/bg-season__5.jpg") center 0px no-repeat; }
+  .page-logo {
+    display: block;
+    z-index: 10;
+    top: 22px; }
+  .menu {
+    padding: 0;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(#111213), color-stop(10%, #111213), color-stop(86.33%, rgba(32, 31, 33, 0)));
+    background: -o-linear-gradient(top, #111213 0%, #111213 10%, rgba(32, 31, 33, 0) 86.33%);
+    background: linear-gradient(180deg, #111213 0%, #111213 10%, rgba(32, 31, 33, 0) 86.33%); }
+  .menu__list {
+    display: block;
+    -webkit-transform: translateY(-130%);
+        -ms-transform: translateY(-130%);
+            transform: translateY(-130%);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s; }
+    .menu__list.menu__list--active {
+      -webkit-transform: translateY(0%);
+          -ms-transform: translateY(0%);
+              transform: translateY(0%);
+      padding: 100px 0 50px;
+      background-color: #0e0e0e; }
+    .menu__list a {
+      display: block;
+      padding: 10px 0; }
+  .menu img {
+    width: 50%; }
+  .seasons__item {
+    height: 203px; }
+  .menu__btn {
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    right: 10px;
+    top: 20px;
+    z-index: 10;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    outline: none; }
+  .menu__btn span {
+    background-color: #fff;
+    height: 5px;
+    width: 100%; }
+  .menu__btn::after,
+  .menu__btn::before {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+    position: absolute; }
+  .menu__btn::before {
+    top: 0;
+    left: 0; }
+  .menu__btn::after {
+    left: 0;
+    bottom: 0; }
+  .page-header,
+  .header-two,
+  .header-three,
+  .header-fore,
+  .header-five {
+    height: 160vh; } }
+
+@media (max-width: 460px) {
+  .header-fore {
+    background: url("../images/no__vikings/bg-season__4.jpg") -900px 25px no-repeat; }
+  .header-three {
+    background: url("../images/no__vikings/bg-season__3.jpg") -600px 25px no-repeat; } }
+
+@media (max-width: 374px) {
+  .header-three {
+    background: url("../images/no__vikings/bg-season__3.jpg") -700px 25px no-repeat; }
+  .header {
+    background: url("../images/no__vikings/header-bg.jpg") -310px 0px no-repeat; }
+  .menu img {
+    width: 70%;
+    left: 15px; }
+  .video__btn {
+    font-size: 18px; }
+  .page-header {
+    height: 200vh; } }
